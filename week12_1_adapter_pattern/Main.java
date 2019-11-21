@@ -14,26 +14,16 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		//1. Duck객체 생성
+		//1. Duck 객체 생성
 		MallardDuck duck = new MallardDuck();
 		
 		//2. Turkey객체 생성
 		WildTurkey turkey = new WildTurkey();
 		
-		/*
-		 * 3. Turkey는 TurkeyAdapter를 통하여 오리처럼 보이도록 wrap한다. 
-		 *    실제 오리로 변경되는 것이 아니라, 오리처럼 행동 할 수 있도록 wrap을 해주는 것이다.
-		 */ 
+		//3. Adapter생성 후 turkey변수를 넘겨준다.
 		Duck turkeyAdapter = new TurkeyAdapter(turkey);
-		
-		System.out.println("The turkey says...");
-		turkey.gobble();
-		turkey.fly();
-		
-		System.out.println("\nThe Duck says...");
-		testDuck(duck);
-		
-		System.out.println("\nThe TurkeyAdapter says...");
 		testDuck(turkeyAdapter);
+		
+		
 	}
 }

@@ -12,7 +12,6 @@ public class TurkeyAdapter implements Duck {
 	private Turkey turkey;
 	
 	public TurkeyAdapter(Turkey turkey) {
-		// TODO Auto-generated constructor stub
 		this.turkey = turkey;
 	}
 	
@@ -25,5 +24,5 @@ public class TurkeyAdapter implements Duck {
 	public void fly() {
 		turkey.fly();
 	}
-
 }
+
