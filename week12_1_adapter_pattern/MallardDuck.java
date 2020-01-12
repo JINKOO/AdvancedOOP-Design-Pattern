@@ -1,7 +1,7 @@
 package week12_1_adapter_pattern;
 
 /*
- * Duck¿ï ±¸Çö ÇØÁÖ´Â MallardDuck class.
+ * Duckï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ö´ï¿½ MallardDuck class.
  */
 public class MallardDuck implements Duck {
 

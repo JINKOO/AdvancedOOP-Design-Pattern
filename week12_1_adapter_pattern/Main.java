@@ -3,9 +3,9 @@ package week12_1_adapter_pattern;
 public class Main {
 
 	/*
-	 * ±âÁ¸¿¡ ÀÖ´ø ÄÚµåÀÌ´Ù.
-	 * Adapter¸¦ »ç¿ëÇÏ¿´¾îµµ
-	 * ÀÌ ºÎºÐÀÇ ÄÚµå´Â º¯ÇÏÁö ¾Ê´Â´Ù. 
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½Úµï¿½ï¿½Ì´ï¿½.
+	 * Adapterï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½îµµ
+	 * ï¿½ï¿½ ï¿½Îºï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Â´ï¿½. 
 	 */
 	public static void testDuck(Duck duck) {
 		duck.quack();
@@ -14,13 +14,13 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		//1. Duck °´Ã¼ »ý¼º
+		//1. Duck ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
 		MallardDuck duck = new MallardDuck();
 		
-		//2. Turkey°´Ã¼ »ý¼º
+		//2. Turkeyï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
 		WildTurkey turkey = new WildTurkey();
 		
-		//3. Adapter»ý¼º ÈÄ turkeyº¯¼ö¸¦ ³Ñ°ÜÁØ´Ù.
+		//3. Adapterï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ turkeyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ°ï¿½ï¿½Ø´ï¿½.
 		Duck turkeyAdapter = new TurkeyAdapter(turkey);
 		testDuck(turkeyAdapter);
 		

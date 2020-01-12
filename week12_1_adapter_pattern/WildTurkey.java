@@ -1,8 +1,8 @@
 package week12_1_adapter_pattern;
 
 /*
- * Turkey¸¦ ±¸ÇöÇÑ class
- * ÀÌ °´Ã¼´Â Duck adapter·Î ÀÎÇÏ¿© Duck interface·Î wrapµÈ´Ù. 
+ * Turkeyï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ class
+ * ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ Duck adapterï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ Duck interfaceï¿½ï¿½ wrapï¿½È´ï¿½. 
  */
 public class WildTurkey implements Turkey {
 	

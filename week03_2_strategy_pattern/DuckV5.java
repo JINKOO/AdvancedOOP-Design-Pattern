@@ -18,8 +18,10 @@ interface QuackBehavior {
 	
 }
 
+// Context에 해당하는 class이다.
 class ModelDuck {
 	
+	//Strategy에 대한 멤버 변수
 	private FlyBehavior flybBehavior;
 	private QuackBehavior quackBehavior;
 	
@@ -54,7 +56,7 @@ class ModelDuck {
 }
 
 /*
- * QuackBehavior interface 구현 class들
+ * QuackBehavior interface 구현 class들 Strategy_n Class이다. 
  * 일반 Quack, Squeak, MuteQuack
  */
 class Quack implements QuackBehavior {

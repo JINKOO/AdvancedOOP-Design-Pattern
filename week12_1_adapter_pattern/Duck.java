@@ -1,9 +1,9 @@
 package week12_1_adapter_pattern;
 
 /*
- * ±³Àç 1ÀåÀÇ Duck interface¸¦ »ç¿ë
- * ¿©±â ¿¹Á¦¿¡¼­´Â Target interface¿¡ ¼ÓÇÑ´Ù.
- * Áï, ¾î¶°ÇÑ interface·Î wrapÇÒ °ÍÀÎÁö¿¡ ´ëÇÑ target
+ * ï¿½ï¿½ï¿½ï¿½ 1ï¿½ï¿½ï¿½ï¿½ Duck interfaceï¿½ï¿½ ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Target interfaceï¿½ï¿½ ï¿½ï¿½ï¿½Ñ´ï¿½.
+ * ï¿½ï¿½, ï¿½î¶°ï¿½ï¿½ interfaceï¿½ï¿½ wrapï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ target
  */
 public interface Duck {
 

@@ -1,11 +1,11 @@
 package week12_1_adapter_pattern;
 
 /*
- * Duck °´Ã¼°¡ ¸ðÀÚ¶ó¼­ Turkey°´Ã¼¸¦ ´ë½Å »ç¿ëÇØ¾ßÇÏ´Â »óÈ²ÀÌ¶ó°í º¸ÀÚ.
- * Duck, TurkeyÀÇ interface°¡ ´Ù¸£¹Ç·Î Turkey°´Ã¼¸¦ ¹Ù·Î »ç¿ë ÇÒ ¼ö ´Â ¾ø´Ù.
- * Adapter class¸¦ »ý¼ºÇÏ¿©, Turkey°´Ã¼¸¦ Duck°´Ã¼·Î WrappÇÑ´Ù.
+ * Duck ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¶ï¿½ Turkeyï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½È²ï¿½Ì¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+ * Duck, Turkeyï¿½ï¿½ interfaceï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½Ç·ï¿½ Turkeyï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½Ù·ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+ * Adapter classï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½, Turkeyï¿½ï¿½Ã¼ï¿½ï¿½ Duckï¿½ï¿½Ã¼ï¿½ï¿½ Wrappï¿½Ñ´ï¿½.
  * 
- * Àû¿ë½ÃÅ°°íÀÚ ÇÏ´Â(client¿¡¼­ ¿øÇÏ´Â) interface¸¦ implementsÇÑ´Ù.
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Å°ï¿½ï¿½ï¿½ï¿½ ï¿½Ï´ï¿½(clientï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½) interfaceï¿½ï¿½ implementsï¿½Ñ´ï¿½.
  */
 public class TurkeyAdapter implements Duck {
 	

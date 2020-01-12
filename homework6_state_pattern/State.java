@@ -1,0 +1,11 @@
+package homework6_state_pattern;
+
+public interface State {
+
+	public void returnChanges();
+	public void selectBeverage();
+	
+	public void addHundred();
+	public void addFiveHundred();
+	public void addThousand();
+}
